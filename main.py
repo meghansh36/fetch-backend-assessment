@@ -28,7 +28,7 @@ def parse_and_sort():
                     header = False
                     continue
                 else:
-                    payer, points, timestamp = line.strip().split(",")
+                    payer, points, timestamp = line.replace("\"", "").strip().split(",")
                     if payer in hashmap:
                         hashmap[payer] += int(points)
                     else:
