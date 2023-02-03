@@ -26,7 +26,7 @@ def parse_and_sort():
             while True:
 
                 line = f.readline()
-                if line == "":
+                if line == "" or line.strip() == "":
                     break
 
                 # Skip header row
