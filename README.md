@@ -1,5 +1,6 @@
 # fetch-backend-assessment
 
+Submitted by:- Meghansh Goel (meghansh.work@gmail.com)
   
 
 This program calculates the number of points left with each payer after spending X number of points (X provided by the user). This program is a part of the fetch backend take home assessment.
